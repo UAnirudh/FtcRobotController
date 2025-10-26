@@ -6,9 +6,11 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 @Disabled
 @TeleOp
 public class IfPractice extends OpMode {
+    @Override
     public void init(){
         
     }
+    @Override
     public void loop(){
         /*
         boolean a_button = gamepad1.a; //Press is True, depress is false
