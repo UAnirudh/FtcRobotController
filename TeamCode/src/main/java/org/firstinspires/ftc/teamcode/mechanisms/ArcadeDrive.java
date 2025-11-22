@@ -9,7 +9,7 @@ public class ArcadeDrive {
         frontLeftMotor = hwMap.get(DcMotor.class,"front_left_motor");
         frontRightMotor = hwMap.get(DcMotor.class,"front_right_motor");
         backLeftMotor = hwMap.get(DcMotor.class,"back_left_motor");
-        frontRightMotor = hwMap.get(DcMotor.class,"front_right_motor");
+        backRightMotor = hwMap.get(DcMotor.class,"front_right_motor");
 
         frontLeftMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         backLeftMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
